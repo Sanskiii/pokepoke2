@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif;
+}
+
+
+/* HEADINGS */
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 45px;
+  color: darkgray;
+  background-color: #F1F1F1;
+}
+
+h2 {
+  background-color: gray;
+  color: white;
+  margin: 0;
+/*  padding: 25px 0;
+*/}
+
+/* Header & Navigation */
+#header {
+  background-color: #A49055;
+  height: 150px;
+}
+
+#logo img {
+  float: left;
+  display: inline-block;
+  width: 200px;
+  margin: 30px 0 0 50px;
+}
+
+#main-nav {
+  float: right;
+  margin: 40px;
+  font-size: 28px;
+}
+
+#main-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#main-nav a:hover {
+  color: gray;
+}
+
+/* Menu */
+#menu {
+  clear: both;
+  margin: 50px auto;
+  width: 900px;
+}
+
+p {
+  text-align: center;
+  margin: 25px 0
+}
+
+.left-menu {
+  float: left;
+  margin-left: 50px;
+  width: 40%;
+}
+
+.right-menu {
+  float: right;
+  margin-right: 50px;
+  width: 40%;
+}
+
+h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  margin: 50px 0;
+}
+
+h3 span {
+  float: right;
+}
+
+h3 sub {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
